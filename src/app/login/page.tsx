@@ -78,7 +78,7 @@ const Login = () => {
             </button>
             <div className="flex flex-col md:flex-row justify-between items-center">
               <p className="text-sm text-white mt-3">
-                Don't have an account ?{" "}
+                Don&apos;t have an account ?{" "}
                 <Link className="hover:text-blue-500" href={"/register"}>
                   Register
                 </Link>
