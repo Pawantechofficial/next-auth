@@ -2,9 +2,11 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="text-white pt-16 h-screen justify-center items-center bg-zinc-900 body-font">
-      <h1>This is Profile Page</h1>
-    </div>
+    <main className="flex bg-zinc-700 min-h-screen flex-col items-center justify-between p-24">
+      <div className="text-white">
+        <h1>My Profile</h1>
+      </div>
+    </main>
   );
 };
 
